@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Nordeco Cyrillic';
+    src: url('NordecoCyrillic-SemiBold.eot');
+    src: local('Nordeco Cyrillic Semibold'), local('NordecoCyrillic-SemiBold'),
+        url('NordecoCyrillic-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NordecoCyrillic-SemiBold.woff2') format('woff2'),
+        url('NordecoCyrillic-SemiBold.woff') format('woff'),
+        url('NordecoCyrillic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nordeco';
+    src: url('Nordeco-Bold.eot');
+    src: local('Nordeco Bold'), local('Nordeco-Bold'),
+        url('Nordeco-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Nordeco-Bold.woff2') format('woff2'),
+        url('Nordeco-Bold.woff') format('woff'),
+        url('Nordeco-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nordeco Cyrillic';
+    src: url('NordecoCyrillic-Bold.eot');
+    src: local('Nordeco Cyrillic Bold'), local('NordecoCyrillic-Bold'),
+        url('NordecoCyrillic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NordecoCyrillic-Bold.woff2') format('woff2'),
+        url('NordecoCyrillic-Bold.woff') format('woff'),
+        url('NordecoCyrillic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nordeco Cyrillic';
+    src: url('NordecoCyrillic-Light.eot');
+    src: local('Nordeco Cyrillic Light'), local('NordecoCyrillic-Light'),
+        url('NordecoCyrillic-Light.eot?#iefix') format('embedded-opentype'),
+        url('NordecoCyrillic-Light.woff2') format('woff2'),
+        url('NordecoCyrillic-Light.woff') format('woff'),
+        url('NordecoCyrillic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nordeco Cyrillic';
+    src: url('NordecoCyrillic-Regular.eot');
+    src: local('Nordeco Cyrillic'), local('NordecoCyrillic-Regular'),
+        url('NordecoCyrillic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NordecoCyrillic-Regular.woff2') format('woff2'),
+        url('NordecoCyrillic-Regular.woff') format('woff'),
+        url('NordecoCyrillic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nordeco';
+    src: url('Nordeco-Light.eot');
+    src: local('Nordeco Light'), local('Nordeco-Light'),
+        url('Nordeco-Light.eot?#iefix') format('embedded-opentype'),
+        url('Nordeco-Light.woff2') format('woff2'),
+        url('Nordeco-Light.woff') format('woff'),
+        url('Nordeco-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nordeco';
+    src: url('Nordeco-SemiBold.eot');
+    src: local('Nordeco Semibold'), local('Nordeco-SemiBold'),
+        url('Nordeco-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Nordeco-SemiBold.woff2') format('woff2'),
+        url('Nordeco-SemiBold.woff') format('woff'),
+        url('Nordeco-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nordeco';
+    src: url('Nordeco-Regular.eot');
+    src: local('Nordeco'), local('Nordeco-Regular'),
+        url('Nordeco-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Nordeco-Regular.woff2') format('woff2'),
+        url('Nordeco-Regular.woff') format('woff'),
+        url('Nordeco-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

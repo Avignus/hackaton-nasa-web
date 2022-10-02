@@ -1,5 +1,4 @@
-import styled from "styled-components";
-
+import styled, { css } from "styled-components";
 const CardsItem = styled.div`
   height: 395px;
   width: 349px;
@@ -11,7 +10,17 @@ const CardsItem = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto Medium';
+  font-family: 'Nordeco Bold';
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  margin-left: 50px;
+  ${props => props.marginLeft && css`
+    margin-left: ${props.marginLeft};
+  `}
+  ${props => props.marginTop && css`
+    margin-top: ${props.marginTop};
+  `}
 `
 
 export default CardsItem;

@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { ContainerAnimation, RocketContainer, Rocket, SunContainer, Sun } from './styles';
-import { ParkerIconSVG, SolarSystemIconSVG, RingsIconSVG, RocketIconSVG, AstronomerImg } from './components/svg-general';
+import { ParkerIconSVG, SolarSystemIconSVG, RingsIconSVG, RocketIconSVG, AstronomerImg, ParkerSpacecraftImgContainer, ParkerSpacecraftSVG } from './components/svg-general';
 import RocketImage from './assets/rocket.png';
 import SunImage from './assets/sun.png'
+import SolarSystemImg from './assets/Solar-system.png';
 import ContainerIcons from './components/container-icons';
 import ContainerCards from './components/container-cards';
 import ContainerOption from './components/container-option';
 import OptionText from './components/option-text';
 import CardsItem from './components/cards-item';
+import SpanBlue from './components/span-blue';
+import ContainerAstronomer from './components/container-astronomer';
+import ParkerSpacecraft from './assets/parker-solar-probe.png';
+import ContainerParker from './components/container-parker';
+import SolarSystemImgStyles from './components/solar-system-image';
+import SolarSystemImgContainerStyles from './components/solar-system-img-container';
+import ContainerSolarSystemText from './components/container-solar-system-text';
+
 function App() {
   const [transitionSun, setTransitionSun] = useState(false);
   const [transitionSun2, setTransitionSun2] = useState(false);
@@ -73,9 +82,40 @@ function App() {
               <ContainerCards>
                 <CardsItem>
                   <AstronomerImg/>
-                  <div style={{height: '30%', position: 'relative', bottom: '30%', backgroundColor: 'blue'}}>
-                    Let’s Explore the Sun with Parker Solar Probe
-                  </div>
+                  <ContainerAstronomer>
+                    Let’s Explore the <SpanBlue>Sun</SpanBlue> with <SpanBlue>Parker Solar Probe</SpanBlue>
+                  </ContainerAstronomer>
+                </CardsItem>
+                <CardsItem>
+                  <ParkerSpacecraftImgContainer>
+                    {/* <img src={ParkerSpacecraft} alt="space-craft"/> */}
+                    <img src={ParkerSpacecraft} alt="space-craft"/>
+                  </ParkerSpacecraftImgContainer>
+                  
+                  <ContainerParker>
+                    A scientific mission to unlock the mysteries of the <SpanBlue>Sun's corona </SpanBlue>and <SpanBlue>solar wind</SpanBlue>
+                  </ContainerParker>
+                </CardsItem>
+                <CardsItem>
+                  <SolarSystemImgContainerStyles>
+                    {/* <img src={ParkerSpacecraft} alt="space-craft"/> */}
+                    <SolarSystemImgStyles src={SolarSystemImg} alt="space-craft"/>
+                  </SolarSystemImgContainerStyles>
+                  <ContainerSolarSystemText>
+                    A spacecraft that uses breakthrough technology and autonomy to endure heat and radiation like no other mission                  
+                  </ContainerSolarSystemText>
+                </CardsItem>
+                <CardsItem marginLeft="239px" marginTop="120px">
+                  <AstronomerImg/>
+                  <ContainerAstronomer>
+                    Let’s Explore the <SpanBlue>Sun</SpanBlue> with <SpanBlue>Parker Solar Probe</SpanBlue>
+                  </ContainerAstronomer>
+                </CardsItem>
+                <CardsItem marginTop="120px">
+                  <AstronomerImg/>
+                  <ContainerAstronomer>
+                    Let’s Explore the <SpanBlue>Sun</SpanBlue> with <SpanBlue>Parker Solar Probe</SpanBlue>
+                  </ContainerAstronomer>
                 </CardsItem>
               </ContainerCards>
             </>

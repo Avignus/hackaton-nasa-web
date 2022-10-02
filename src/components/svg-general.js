@@ -4,6 +4,8 @@ import { ReactComponent as SolarSystemIcon } from '../assets/Solar-system.svg'
 import { ReactComponent as RingsIcon } from '../assets/Rings.svg'
 import { ReactComponent as RocketIcon } from '../assets/Rocket.svg'
 import { ReactComponent as Astronomer } from '../assets/astronomer.svg'
+import { ReactComponent as ParkerSpacecraftSVG } from '../assets/Parker-spacecraft.svg'
+
 const changeColor = keyframes`
   from {
     fill: white;
@@ -59,10 +61,14 @@ const RocketIconSVG = styled(RocketIcon)`
 const AstronomerImg = styled(Astronomer)`
   width: 600px;
   height: 600px;
-  background-color: red;
   position: relative;
   bottom: 30%;
-
+`
+const ParkerSpacecraftImgContainer = styled.div`
+  width: 600px;
+  height: 600px;
+  position: relative;
+  bottom: 25%;
 `
 
-export { ParkerIconSVG, SolarSystemIconSVG, RingsIconSVG, RocketIconSVG, AstronomerImg }
+export { ParkerIconSVG, SolarSystemIconSVG, RingsIconSVG, RocketIconSVG, AstronomerImg, ParkerSpacecraftImgContainer, ParkerSpacecraftSVG }
