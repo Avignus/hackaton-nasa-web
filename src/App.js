@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { ContainerAnimation, RocketContainer, Rocket, SunContainer, Sun } from './styles';
+import RocketImage from './assets/rocket.png';
+import SunImage from './assets/sun.png'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ContainerAnimation>
+      <RocketContainer>
+        <Rocket src={RocketImage}/>
+      </RocketContainer>
+      <SunContainer>
+        <Sun src={SunImage}/>
+      </SunContainer>
+    </ContainerAnimation>
   );
 }
 
