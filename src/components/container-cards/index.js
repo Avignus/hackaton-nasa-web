@@ -1,4 +1,12 @@
-import styled, { css } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`
 const ContainerCards = styled.div`
   position: absolute;
   ${props => props.top && css`
@@ -11,6 +19,7 @@ const ContainerCards = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  animation: ${fadeIn} 0.5s ease-in;
 `
 
 export default ContainerCards;
